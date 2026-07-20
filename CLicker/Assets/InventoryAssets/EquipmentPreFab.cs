@@ -2,17 +2,12 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Equipment : MonoBehaviour
+[CreateAssetMenu (fileName = "NewItem", menuName = "Item Library/Item")]
+public class ItemData :ScriptableObject
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+    public string itemName;
+    public string description;
+    public Sprite icon;
+    public int maxStackSize = 99;
+    public float goldValue;
 }
