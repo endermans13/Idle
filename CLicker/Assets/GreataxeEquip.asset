@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95e66c6366d904e98bc83428217d4fd7, type: 3}
+  m_Name: GreataxeEquip
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"Kind":"Flow","collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":null,"summary":null,"pan":{"x":0.0,"y":0.0},"zoom":1.0,"elements":[{"coroutine":false,"defaultValues":{"target":null},"position":{"x":-391.0,"y":-83.0},"guid":"56ef7c82-3581-4731-8ac6-7b26b60843f9","$version":"A","$type":"Unity.VisualScripting.OnButtonClick","$id":"9"},{"argumentCount":0,"defaultValues":{"name":{"$content":"Greataxe","$type":"System.String"},"target":null},"position":{"x":-112.0,"y":-100.0},"guid":"b34e440c-79cb-4d89-9f0e-ba122025d233","$version":"A","$type":"Unity.VisualScripting.TriggerCustomEvent","$id":"11"},{"specifyFallback":false,"kind":"Scene","defaultValues":{"name":{"$content":"Stage","$type":"System.String"}},"position":{"x":-400.0,"y":52.0},"guid":"a692842d-264f-4dae-84ea-e6da762edc8b","$version":"A","$type":"Unity.VisualScripting.GetVariable","$id":"13"},{"sourceUnit":{"$ref":"9"},"sourceKey":"trigger","destinationUnit":{"$ref":"11"},"destinationKey":"enter","guid":"fce8b611-6619-4150-ae88-766f50cb915c","$type":"Unity.VisualScripting.ControlConnection"},{"sourceUnit":{"$ref":"13"},"sourceKey":"value","destinationUnit":{"$ref":"11"},"destinationKey":"target","guid":"3400bdea-97f1-44dc-b0f7-23490cac0fcb","$type":"Unity.VisualScripting.ValueConnection"}],"$version":"A"}}'
+    _objectReferences: []
